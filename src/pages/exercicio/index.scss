@@ -1,0 +1,40 @@
+.pai {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #9177F2;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 20px;
+    width: auto;
+    height: 100%;
+    margin: 30px 20px;
+}
+
+.escuro {
+    background-color: #77A0F2;
+    color: #BDCAF2;
+
+}
+
+.bt-escuro {
+    background-color: #8B88F2;
+    color: #BDCAF2;
+}
+
+.claro {
+    background-color: #BDCAF2;
+    color: #9177F2;
+
+}
+
+.bt-claro {
+    background-color: #F277DE;
+    color: #BDCAF2;
+}
