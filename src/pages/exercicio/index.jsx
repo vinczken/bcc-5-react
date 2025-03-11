@@ -22,12 +22,11 @@ export default function Exercicio() {
         <div className="pai">
             {
                 exibido ? (
-                    <Header titulo='Header' subtitulo='subtitles' 
-                    divClass={`header ${temaEscuro ? 'escuro' : 'claro'}`} 
-                    buttonClass={temaEscuro ? 'bt-escuro' : 'bt-claro'} t
-                    ext1='Incrementar' 
-                    text2='Resetar' 
-                    text3='Decrementar' />
+                    <Header titulo='React para Dispositivos Móveis' subtitulo='Projeto feito por Caio Xavier da Silva' 
+                    divClass={`${temaEscuro ? 'escuro' : 'claro'}`} 
+                    buttonClass={temaEscuro ? 'bt-escuro' : 'bt-claro'} 
+                    text1='Incrementar' 
+                    text2='Resetar' />
                 ) : (
                     <div></div>
                 )

@@ -1,17 +1,34 @@
 .secao {
     display: flex;
     flex-direction: row;
-    gap: 15px;
-    background-color: rgb(15, 14, 14);
-    width: 100vw;
-    padding: 15px 50px;
-    box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    width: 90vw;
+    padding: 5px 15px;
+    margin: 10px 5px;
+    border-radius: 15px;
+}
+
+.tituSub {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+
+    width: auto;
+    gap: 10px;
+    margin: 0;
+
+    padding: 10px;
+    .titulo, .subtitulo{
+        width: max-content;
+        margin: 0;
+    }
+
 }
 
 .titulo {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .button {
@@ -28,8 +45,4 @@
     gap: 15px;
     padding: 10px;
     padding-right: 40px;
-}
-
-.subtitulo {
-    padding: 10px;
 }

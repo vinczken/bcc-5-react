@@ -1,9 +1,11 @@
 .pai {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: #9177F2;
+    background-color: #362869;
 }
 
 .main {
@@ -29,12 +31,14 @@
 }
 
 .claro {
-    background-color: #BDCAF2;
-    color: #9177F2;
+    background-color: #dddddd;
+    color: #A278DD;
+    border: 5px #caa6ee solid;
+    box-shadow: 0 0 0 3px #a278dd;
 
 }
 
 .bt-claro {
     background-color: #F277DE;
-    color: #BDCAF2;
+    color: #A278DD;
 }
