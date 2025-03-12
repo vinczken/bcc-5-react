@@ -12,8 +12,8 @@ export default function Header(props) {
             <img src={props.imgSrc} height={68} width={68}/>
 
             <div className='botoes'>
-                <Button className={`button ${props.buttonClass}`} onClick={props.onClick1} text={props.text1}/>
-                <Button className={`button ${props.buttonClass}`} onClick={props.onClick2} text={props.text2}/>
+                <Button className={`headerBotao ${props.buttonClass}`} onClick={props.onClick1} text={props.textBtn1}/>
+                <Button className={`headerBotao ${props.buttonClass}`} onClick={props.onClick2} text={props.textBtn2}/>
             </div>
         </div>
     )

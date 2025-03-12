@@ -28,15 +28,15 @@ export default function Exercicio() {
                     divClass={`${temaEscuro ? 'escuro' : 'claro'}`} 
                     buttonClass={temaEscuro ? 'bt-escuro' : 'bt-claro'} 
                     imgSrc={temaEscuro ? HeaderIconB : HeaderIconW}
-                    text1='Incrementar' 
-                    text2='Resetar' />
+                    textBtn1='Rotas' 
+                    textBtn2='Trocar Tema'
+                    onClick2={mudarTema} />
                 ) : (
                     <div></div>
                 )
             }
 
             <div className="main">
-                <Button className={temaEscuro ? 'bt-escuro' : 'bt-claro'} text='Mudar Tema' onClick={mudarTema} />
                 <Button className={temaEscuro ? 'bt-escuro' : 'bt-claro'} text='Esconder Header' onClick={esconderHeader} />
             </div>
             <Footer divClass={temaEscuro ? 'escuro' : 'claro'} />
