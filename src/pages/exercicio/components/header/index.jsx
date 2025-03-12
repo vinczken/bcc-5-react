@@ -1,5 +1,4 @@
 import Button from '../button'
-import HeaderIcon from '../../../../assets/headerIcon.png'
 import './index.scss'
 
 export default function Header(props) {
@@ -10,7 +9,7 @@ export default function Header(props) {
                 <p className='subtitulo'>{props.subtitulo}</p>
             </div>
 
-            <img src={HeaderIcon} height={68} width={68}/>
+            <img src={props.imgSrc} height={68} width={68}/>
 
             <div className='botoes'>
                 <Button className={`button ${props.buttonClass}`} onClick={props.onClick1} text={props.text1}/>

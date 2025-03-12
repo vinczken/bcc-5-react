@@ -1,6 +1,8 @@
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Button from "./components/button";
+import HeaderIconW from "../../assets/headerIconW.png"
+import HeaderIconB from "../../assets/headerIconB.png"
 import "./index.scss"
 import { useState } from "react";
 
@@ -25,6 +27,7 @@ export default function Exercicio() {
                     <Header titulo='React para Dispositivos Móveis' subtitulo='Projeto feito por Caio Xavier da Silva' 
                     divClass={`${temaEscuro ? 'escuro' : 'claro'}`} 
                     buttonClass={temaEscuro ? 'bt-escuro' : 'bt-claro'} 
+                    imgSrc={temaEscuro ? HeaderIconB : HeaderIconW}
                     text1='Incrementar' 
                     text2='Resetar' />
                 ) : (
